@@ -1,0 +1,284 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 12px;
+}
+.search{
+    display: flex;
+    justify-content: right;
+    width: 900px; 
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 13px;
+    font-size: 18px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul >li> a:hover{
+    color: rgb(244, 79, 8);
+}
+.logo{
+    padding: 6px 0;
+}
+.logo img{
+    width: 65px;
+}
+/* .logo span{
+    font-size: 20px;
+} */
+div h3{
+    padding: 12px 0px;
+    background-color: slategray;
+}
+main{
+    width: 100vw;
+    /* height: 120vh; */
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 15px;
+}
+#mainsection{
+    width: 65vw;
+    /* height: 100vh; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background: yellow; */
+    text-align: center;
+}
+#div1{
+    /* height: 300px; */
+    width: 300px;
+    /* padding: 10px; */
+    border: 1px solid black;
+    /* background: red; */
+    margin-bottom: 20px; 
+}
+#div1 span{
+    text-decoration: line-through;
+}
+#div2{
+    /* height: 300px; */
+    width: 300px;
+    /* padding: 10px; */
+    border: 1px solid black;
+    /* background: green; */
+    margin-bottom: 20px;
+}
+#div2 span{
+    text-decoration: line-through;
+}
+#div3{
+    /* height: 300px; */
+    width: 300px;
+    /* padding: 10px; */
+    border: 1px solid black;
+    /* background: violet; */
+    margin-bottom: 20px;
+}
+#div3 span{
+    text-decoration: line-through;
+}
+#div4{
+    /* height: 300px; */
+    width: 300px;
+    /* padding: 10px; */
+    border: 1px solid black;
+    /* background: white; */
+    margin-bottom: 20px;
+}
+#div4 span{
+    text-decoration: line-through;
+}
+div button{
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+div button:hover{
+    color: black;
+}
+#asidesection{
+    width: 32vw;
+    /* height: 115vh; */
+    background:rgba(245, 242, 242, 0.975);
+    text-align: justify;
+}
+#asidesection1{
+    width: 32vw;
+    /* height: 65vh; */
+    margin-top: -10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#div5{
+    height: 50px;
+    width: 250px;
+    /* background-color: black; */
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-bottom: -5px; */
+}
+#div6{
+    height: 50px;
+    width: 250px;
+    /* background-color: rgb(33, 17, 205); */padding: 7px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+}
+#div7{
+    height: 50px;
+    width: 250px;
+    /* background-color: rgb(232, 14, 14); */
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-top: -20px; */
+
+}
+#div8{
+    height: 50px;
+    width: 250px;
+    /* background-color: rgb(219, 12, 115); */
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-bottom: 10px; */
+
+}
+#contact{
+    /* height: 70vh; */
+    width: 100vw;
+    background-color: rgb(244,240,226);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#contact1{
+    /* height: 70vh; */
+    width: 58vw;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content:space-between; */
+    text-align: center;
+    margin: 150px 0px;
+}
+#contact1 p{
+    padding-bottom: 10px;
+}
+#contact1 span{
+    margin-bottom: 50px;
+}
+#contact2{
+    /* height: 70vh; */
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content:space-evenly; */
+    align-items: center;
+}
+@media screen and (min_width:600){
+    .class1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+#field{
+    height:300px;
+    width:250px;
+    border-radius: 20px;
+}
+form{
+    height: 280px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    border: 1px; 
+}
+form input{
+    padding: 13px;
+    border-radius: 30px;
+}
+form button{
+    /* margin: 4px; */
+    height: 40px;
+    width: 80px;
+    margin-top: 10px;
+}
+#contact2 div{
+    height: 6vh;
+    width: 200vw;
+    /* background-color:rgb(103,86,204); */
+    text-decoration: underline;
+}
+#contact2 div p{
+    color: blue;
+    font-size: 22px;
+    margin: 15px 0px 0px;
+}
+footer{
+    height: 45vh;
+    width: 100vw;
+    background-color: blue;
+    color: white;
+}
+#foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.side ul li{
+    list-style: none;
+}
+.side p{
+    font-size: 20px;
+    color: black;
+}
+.side2{
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
